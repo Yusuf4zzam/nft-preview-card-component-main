@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  background: #0d192b;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container .card {
+  max-width: 300px;
+  padding: 20px 20px 30px;
+  border-radius: 10px;
+  background: #14253d;
+  -webkit-box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .image-box {
+  margin-bottom: 15px;
+}
+
+.container .card .image-box img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.container .card .content-box h2 {
+  color: white;
+}
+
+.container .card .content-box > p {
+  font-size: 15px;
+  color: #8bacda;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.container .card .content-box .Info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #2f415b;
+  font-size: 14px;
+}
+
+.container .card .content-box .Info .Equilibrium p {
+  color: #00fff7;
+}
+
+.container .card .content-box .Info .date p {
+  color: #8bacda;
+}
+
+.container .card .content-box .Info p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .content-box .Info p svg {
+  margin-right: 7px;
+}
+
+.container .card .content-box .creation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .content-box .creation .creation-img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  border-radius: 50%;
+  padding: 1px;
+  margin-right: 15px;
+}
+
+.container .card .content-box .creation .creation-img-box img {
+  width: 30px;
+}
+
+.container .card .content-box .creation .text-box p {
+  font-size: 14px;
+  color: #8bacda;
+}
+
+.container .card .content-box .creation .text-box p span {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
